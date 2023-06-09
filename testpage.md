@@ -1,5 +1,7 @@
+---
 layout: page
-title: "testpage"
-permalink: /testpage
+title: testpage
+permalink: /testpage/
+---
 
 ## hello world
