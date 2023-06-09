@@ -18,23 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Takuya Sasatani
+email: sasatani@g.ecc.u-tokyo.ac.jp
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: takuyasasatani
+github_username:  t-sasatani
 
 # Build settings
+#remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-remote_theme: pages-themes/slate@v0.2.0
 
+fonts:
+  google_fonts: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&family=Roboto+Mono:wght@200&display=swap"
+  heading: "Noto Sans JP"
+  base: "Noto Sans JP"
+  mono: "Roboto Mono"
 
 markdown: kramdown
 
